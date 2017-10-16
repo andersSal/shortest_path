@@ -8,7 +8,7 @@ def astar(start: grid.Node, goal: grid.Node, board: grid.Board):
     :param grid.Node start: Start node
     :param grid.Node goal: Goal Node
     :param grid.Board board:
-    :return: Success --> a grid.Board, Failure: str
+    :return: Success --> a grid.Board, Failure --> str
 
     '''
     open_list = []                         # -> implemented as a min-priority-queue using heapq

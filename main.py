@@ -82,7 +82,7 @@ def run_one_board(board_path: str, algorithm: str):
         goal = board.matrix[board.goal_coordinates[0]][board.goal_coordinates[1]]
         d.shortest_path(start, goal, board)
         image = get_image(board)
-    image.show("hei")
+    image.show()
 
 
 def run():
