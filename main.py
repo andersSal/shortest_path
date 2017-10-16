@@ -93,6 +93,5 @@ def run():
     2. run_one_board('User/.../boards/board-1-1-txt', 'astar')
 
     '''
-    run_one_board('/Users/anderssalvesen/PycharmProjects/IntroAI/A_star/boards/board-1-1.txt', 'astar')
 
 run()
